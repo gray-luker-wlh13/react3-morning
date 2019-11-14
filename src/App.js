@@ -28,7 +28,7 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-        {<Card person={this.state.people[this.state.i]}/>}
+        <Card person={this.state.people[this.state.i]}/>
         <button name="previous" onClick={this.handleClick}>Previous</button>
         <button name="next" onClick={this.handleClick}>Next</button>
       </div>
